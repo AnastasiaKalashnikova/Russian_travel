@@ -5,13 +5,13 @@
   grid-template-columns: repeat(5, 1fr);
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .places {
     max-width: 928px;
     margin: 0 auto;
   }
 }
-@media (max-width: 380px) {
+@media screen and (max-width: 380px) {
   .places {
     max-width: 320px;
     margin: 0 auto;

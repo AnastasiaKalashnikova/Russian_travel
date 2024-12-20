@@ -9,7 +9,7 @@
   max-height: 72px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .lead__subtitle {
     font-size: 18px;
     max-width: 100%;
@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 380px) {
+@media screen and (max-width: 380px) {
   .lead__subtitle {
     font-size: 16px;
   }

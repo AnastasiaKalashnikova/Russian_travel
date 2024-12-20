@@ -6,7 +6,7 @@
   padding-right: 294px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro__text {
     padding: 0;
   }

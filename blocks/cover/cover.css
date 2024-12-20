@@ -7,14 +7,14 @@
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover {
     height: auto;
     padding: 20px 0;
   }
 }
 
-@media (max-width: 380px) {
+@media screen and (max-width: 380px) {
   .cover {
     padding: 10px 0;
     max-width: 320px;
